@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Dashboard</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -14,7 +14,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Heart Disease Risk Prediction Dashboard</a>
+    <a class="navbar-brand" href="#">Dashboard</a>
   
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -22,45 +22,56 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="dashboard.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Civil Complaint</a>
+          <a class="nav-link" href="visualization.html">Data Visualization</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Texas Profile</a>
-        </li>
-        <li class="nav-item">
+         <li class="nav-item">
             <a class="nav-link" href="correlations.html">Correlations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="model.html">Model</a>
           </li>
+       
       </ul>
-      <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
+     
+  
     </div>
   </nav>
   <div class="container-fluid"> 
 
     <div class="row">
       <div class="col-sm-6">
-        <img src ="cor1.PNG">
+        <figure>
+           <img src ="cor1.PNG">
+                </figure>
       </div>
           <div class="col-sm-6">
-            <img src ="cor2.PNG">
+            <figure>
+           <img src ="cor2.PNG">
+           
+        </figure>
       </div>
       </div>
-
+    <p style="text-align: center;"> Visualization of Corelation Matrix</p>
+<hr style="height:2px;border-width:0;color:#000000;background-color:#000000">
       <div class="row">
       <div class="col-sm-6">
-        <img src ="cor3.PNG">
+        <figure>
+           <img src ="cor3.PNG">
+
+        </figure>
       </div>
       <div class="col-sm-6" >
-        <img src ="cor4.PNG">
+        <figure>
+           <img src ="cor4.PNG">
+    
+        </figure>
       </div>
     </div>
+     <p style="text-align: center;"> Visualization of Scatter Plot Matrix</p>
+      <hr style="height:2px;border-width:0;color:#000000;background-color:#000000">
   </div>
   </body>
   </html>
